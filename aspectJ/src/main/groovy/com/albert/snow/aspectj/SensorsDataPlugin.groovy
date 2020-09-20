@@ -14,7 +14,7 @@ public class SensorsDataPlugin implements Plugin<Project> {
         final def log = project.logger
 
         project.dependencies {
-            implementation 'org.aspectj:aspectjrt:1.8.10'
+            implementation 'org.aspectj:aspectjrt:1.9.0'
         }
 
         project.android.applicationVariants.all { variant ->

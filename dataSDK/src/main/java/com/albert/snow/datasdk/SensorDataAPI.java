@@ -7,10 +7,11 @@ import androidx.annotation.Keep;
 
 import java.util.Map;
 
+import static com.albert.snow.datasdk.DataSdkGlobalKt.TAG;
+
 @Keep
 public class SensorDataAPI {
 
-    private final String TAG = this.getClass().getSimpleName();
     public static final String SDK_VERSION = "1.0.0";
 
     private static SensorDataAPI INSTANCE;
