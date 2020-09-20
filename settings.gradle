@@ -1,3 +1,4 @@
+include ':aspectJ'
 include ':dataSDK'
 include ':app'
 rootProject.name = "DeepCode"
